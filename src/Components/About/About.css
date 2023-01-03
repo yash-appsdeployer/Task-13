@@ -1,0 +1,92 @@
+.about {
+    background: rgba(0, 0, 0, 0.902);
+}
+
+.about-heading {
+    border-bottom: 1px solid #ffac1d;
+    color: #fff;
+    padding-top: 10px;
+
+}
+
+.about-text {
+    color: rgba(255, 255, 255, 0.705);
+    font-size: 13px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.about-image {
+    width: 550px;
+    height: 400px;
+    margin-left: 20px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.9);
+}
+
+.about-image:hover {
+    opacity: .7;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-message {
+    color: #ffac1d;
+    margin-top: 60px;
+}
+
+.about-para {
+    color: #fff;
+}
+
+
+.about-two {
+    background: #F0CF97;
+}
+
+.about-first {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.about-second {
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.about-third {
+    color: #000;
+    font-size: 15px;
+}
+
+.about-btn {
+    padding: 10px 30px;
+    font-weight: 600;
+    background-color: #fff;
+    color: #000;
+}
+
+.about-btn:hover {
+    background: #ffac1d;
+    transition: all 0.5s ease-in-out;
+    color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    .about-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .about-image {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-image {
+        width: 200px;
+        height: 200px;
+    }
+}

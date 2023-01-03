@@ -1,0 +1,28 @@
+.services {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.services-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+.services-data {
+margin-left: 30px;
+}
+
+.services-logo {
+    font-size: 40px;
+    color: #ffac1d;
+}
+
+.services-box {
+    width: 250px;
+}
+
+.services-para{
+    color: rgb(77, 77, 77);
+    font-weight: 500;
+}

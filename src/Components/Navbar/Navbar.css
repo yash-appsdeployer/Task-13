@@ -1,0 +1,29 @@
+.navbar{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+.navbar-logo{
+    max-width: 100px;
+    max-height: 50px;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar-brand:hover {
+    color:  #ffac1d;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link {
+    color:#F0CF97;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover {
+border-bottom: 1px solid  #ffac1d;
+transition: all 0.5s ease-in-out;
+}
