@@ -15,10 +15,10 @@ const Service = () => {
                         </p>
                     </div>
 
-                    <div class="d-flex flex-wrap justify-content-evenly mt-5">
+                    <div className="d-flex flex-wrap justify-content-evenly mt-5">
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-heart"></i>
+                                <i className="fa-solid fa-heart"></i>
                             </div>
                             <div className="services-box">
                                 <h3 >Concept Design</h3>
@@ -28,7 +28,7 @@ const Service = () => {
 
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-flag"></i>
+                                <i className="fa-solid fa-flag"></i>
                             </div>
                             <div className="services-box">
                                 <h3>Luxuriour Interior</h3>
@@ -38,7 +38,7 @@ const Service = () => {
 
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-thumbs-up"></i>
+                                <i className="fa-solid fa-thumbs-up"></i>
                             </div>
                             <div className="services-box">
                                 <h3 >Wow Living Room</h3>
@@ -48,10 +48,10 @@ const Service = () => {
                     </div>
 
 
-                    <div class="d-flex flex-wrap justify-content-evenly">
+                    <div className="d-flex flex-wrap justify-content-evenly">
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-cookie-bite"></i>
+                                <i className="fa-solid fa-cookie-bite"></i>
                             </div>
 
                             <div className="services-box">
@@ -63,7 +63,7 @@ const Service = () => {
 
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-cloud"></i>
+                                <i className="fa-solid fa-cloud"></i>
                             </div>
 
                             <div className="services-box">
@@ -74,7 +74,7 @@ const Service = () => {
 
                         <div>
                             <div className="services-logo">
-                                <i class="fa-solid fa-bed"></i>
+                                <i className="fa-solid fa-bed"></i>
                             </div>
                             <div className="services-box">
                                 <h3>Cool Bedroom</h3>

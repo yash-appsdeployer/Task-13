@@ -23,33 +23,33 @@ const Portfolio = () => {
                         <h4 className='portfolio-heading-two text-center mt-4'>What they say!!</h4>
                     </div>
 
-                    <div class="d-flex flex-wrap justify-content-evenly mt-5">
+                    <div className="d-flex flex-wrap justify-content-evenly mt-5">
                         <div >
-                            <div class="card portfolio-card" >
-                                <img  src={client1} class="card-img-top" alt="img1" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Richie Rich</h5>
-                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
+                            <div className="card portfolio-card" >
+                                <img  src={client1} className="card-img-top" alt="img1" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Richie Rich</h5>
+                                    <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div >
-                            <div class="card portfolio-card" >
-                                <img  src={client2}  class="card-img-top" alt="img1" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Lady Gaga</h5>
-                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
+                            <div className="card portfolio-card" >
+                                <img  src={client2}  className="card-img-top" alt="img1" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Lady Gaga</h5>
+                                    <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
                                 </div>
                             </div>
                         </div>
 
                         <div >
-                            <div class="card portfolio-card" >
-                                <img src={client3} class="card-img-top" alt="img1" />
-                                <div class="card-body">
-                                    <h5 class="card-title">Dua Lipa</h5>
-                                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
+                            <div className="card portfolio-card" >
+                                <img src={client3} className="card-img-top" alt="img1" />
+                                <div className="card-body">
+                                    <h5 className="card-title">Dua Lipa</h5>
+                                    <p className="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, autem impedit dicta quae quos sequi.</p>
                                 </div>
                             </div>
                         </div>
@@ -64,29 +64,29 @@ const Portfolio = () => {
                     </div>
 
                     <div className="d-flex flex-col flex-wrap gallery-image mt-5">
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery1} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery2} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery3} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery4} alt="" />
                         </div>
 
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery5} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery6} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery7} alt="" />
                         </div>
-                        <div class="col-xl-3 col-sm-6 mb-5">
+                        <div className="col-xl-3 col-sm-6 mb-5">
                             <img className='gallery-set object-fit-cover border rounded' src={gallery8} alt="" />
                         </div>
 
